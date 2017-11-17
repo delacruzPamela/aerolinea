@@ -19,6 +19,7 @@ h1 {
 
 /*STYLE FOR THE SEAT AIRLINE*/
 #classairline {
+    outline: 1px solid yellow;
     background-image: url('../assets/images/aerolinea.PNG');
     background-position : center; 
     background-repeat: no-repeat;
@@ -26,12 +27,19 @@ h1 {
 }
 
 #first-class {
-    outline: 1px solid green;  
+    /*outline: 1px solid green;*/
+    display: inline-block;
+    margin-top: 275px;
+    padding-right: 87px;    
 }
 
 #economic-class {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
+    background-color: white;
+    display: inline-block;  
+    margin-right: 100px;   
 }
+
 .seat-first, .seat-economic {
     width: 60px;
     height: 60px;
@@ -42,13 +50,15 @@ h1 {
 }
 
 .seat-first {
-    outline: 1px solid orange;
+    /*outline: 1px solid orange;*/
     background: #B3E5FC;
     display: inline-block;
 }
+
 .seat-economic {
     outline: 1px solid bl;
     background: #FFCA28;
+    display: inline-block;     
 }
 
 /*STYLE FOR THE BUTTON "PLAY AGAIN"*/
