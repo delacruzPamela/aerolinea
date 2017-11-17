@@ -29,7 +29,7 @@ h1 {
 #first-class {
     /*outline: 1px solid green;*/
     display: inline-block;
-    margin-top: 275px;
+    margin-top: 273px;
     padding-right: 87px;    
 }
 
@@ -37,6 +37,7 @@ h1 {
     /*outline: 1px solid red;*/
     background-color: white;
     display: inline-block;  
+    padding-bottom: 3px;
     margin-right: 100px;   
 }
 
@@ -56,7 +57,7 @@ h1 {
 }
 
 .seat-economic {
-    outline: 1px solid bl;
+    /*outline: 1px solid blue;*/
     background: #FFCA28;
     display: inline-block;     
 }
