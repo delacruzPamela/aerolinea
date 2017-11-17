@@ -1,0 +1,143 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: arial;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 30px;
+    color: #00695C;
+    font-weight: bold;
+}
+
+/*STYLE FOR THE SEAT AIRLINE*/
+#classairline {
+    background-image: url('../assets/images/aerolinea.PNG');
+    background-position : center; 
+    background-repeat: no-repeat;
+    min-height: 650px;
+}
+
+#first-class {
+    outline: 1px solid green;  
+}
+
+#economic-class {
+    outline: 1px solid red;
+}
+.seat-first, .seat-economic {
+    width: 60px;
+    height: 60px;
+    border: 1px solid white; 
+    margin: 0px 15px 4px 0px;
+    border-radius: 20px;
+    cursor: pointer;    
+}
+
+.seat-first {
+    outline: 1px solid orange;
+    background: #B3E5FC;
+    display: inline-block;
+}
+.seat-economic {
+    outline: 1px solid bl;
+    background: #FFCA28;
+}
+
+/*STYLE FOR THE BUTTON "PLAY AGAIN"*/
+button {
+    margin: 15px 0 30px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color: #80CBC4;
+    outline: none; /*Quita el borde del boton*/
+    padding: 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #006064;
+}
+
+/*STYLE FOR THE FIRST SECTION SEAT-AREA*/
+#seat-area, #no-seat {
+    outline: 1px solid red;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 18px 0 20px 0;
+    margin: 30px 0 30px 0;
+    background-color:black;
+    opacity:0.9; /* Opacidad 60% */
+    color: white;
+}
+
+ol {
+    padding-top: 14px;
+}
+
+li {
+    text-align: left;
+    margin-left: 100px;
+}
+
+#zona {
+    width: 400px;
+    height: 30px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 14px;
+    outline: none;
+}
+
+/*STYLE FOR THE SECOND SECTION PASS TO BOARD*/
+#pass {
+    outline: 1px solid gray;
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 18px 0 20px 0;
+    margin: 30px 0 30px 0;
+}
+
+h2 {
+    padding: 0px 0px 13px 40px;
+    text-align: left;
+}
+
+.number-seat, .class-seat {
+    display: inline-block;
+    margin: 20px 130px 20px 0px;
+}
+
+/*STYLE FOR THE THIRD SECTION NO-SEAT*/
+span {
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+#accept {
+    margin-left: 150px;
+}
+
+/*STYLE FOR THE FOUR SECTION NEXT FLIGHT*/
+#finish {
+    width: 500px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 30px 0 30px 0;
+    padding-top: 30px;    
+    background-color:black;
+    opacity:0.9; /* Opacidad 60% */
+    color: white;
+}

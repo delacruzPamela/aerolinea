@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Reserva de asientos</title>
+    <!--Enlazamos el archivo externo main.css para dar estilos a nuestro documento html-->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--Titulo de reserva de asientos-->
+    <header>
+        <nav>
+            <h1>DISTRIBUCIÓN DE ASIENTOS</h1>
+        </nav>
+    </header>
+    <!--Asientos segun clase(economica o primera clase)-->
+    <section id="classairline">
+        <div id="airline">
+            <div id="first-class">
+                <div id="seat1" class="seat-first"></div>
+                <div id="seat2" class="seat-first"></div>
+                <div id="seat3" class="seat-first"></div>
+                <div id="seat4" class="seat-first"></div>
+            </div>
+            <div id="economic-class">
+                <div id="seat5" class="seat-economic"></div>
+                <div id="seat6" class="seat-economic"></div>
+                <div id="seat7" class="seat-economic"></div>
+                <div id="seat8" class="seat-economic"></div>
+                <div id="seat9" class="seat-economic"></div>
+                <div id="seat10" class="seat-economic"></div>
+            </div>
+        </div>
+    </section>
+    <!--Boton de reserva de asiento-->
+    <div>
+        <button id="reserve" class="btn">RESERVAR ASIENTO</button>
+    </div>
+    <!--Clasificacion de zonas de asiento-->
+    <section>
+        <div>
+            <div id="seat-area" class="">
+                <h3>¿En qué zona deseas reservar tu asiento?</h3>
+                <ol>
+                    <li>Primera clase</li>
+                    <li>Económica</li>
+                </ol>
+                <input id="zona" type="text" name="zona" placeholder="Porfavor ingrese el número">
+                <button id="reserve" class="btn">ENVIAR</button>        
+            </div>
+        </div>
+    </section>
+    <!--Boleto de reserva de asiento-->
+    <section>
+        <div id="pass">
+            <h2>Pase de abordar</h2>
+            <hr>
+            <span class="number-seat"><b>N°. de asiento:</b><p></p></span>
+            <span class="class-seat"><b>Clase:</b><p></p></span>
+        </div>
+    </section>
+        <!--<img src="assets/images/aerolinea.PNG">-->
+    <!--Mensaje reserva en otra clase-->
+    <section>
+        <div id='no-seat'>
+            <span class="other-seat"><strong>Ya no quedan lugares en clase económica :(</strong> <br> 
+                ¿Quieres reservar tu asiento en primera clase?</span>
+            <button id="accept" class="btn">Aceptar</button>
+            <button id="cancel" class="btn">Cancelar</button>
+        </div>
+    </section>
+     <!--Mensaje final - próximo vuelo-->
+    <div id="finish">
+        <span><b>El próximo vuelo sale en 3 horas!</b></span>
+    </div>
+    <!--Enlazammos el archivo externo app.js para dar animacion e interactividad a nuestro html-->
+    <script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
